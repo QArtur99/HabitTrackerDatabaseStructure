@@ -23,14 +23,14 @@ public class HabitDbContract {
                 DATE
         };
 
-        static final String SQL_CREATE_SETTINGS =
+        static final String SQL_CREATE_HABITS =
                 "CREATE TABLE " + TABLE_NAME + " ("
                         + _ID + " INTEGER PRIMARY KEY AUTOINCREMENT,"
                         + HABIT + " TEXT,"
                         + DATE + " INTEGER"
                         + ");";
 
-        static final String SQL_DELETE_SETTINGS =
+        static final String SQL_DELETE_HABITS =
                 "DROP TABLE IF EXISTS " + TABLE_NAME;
 
     }
