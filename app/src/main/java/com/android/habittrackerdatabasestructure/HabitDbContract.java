@@ -11,7 +11,6 @@ public class HabitDbContract {
     private HabitDbContract() {
     }
 
-    /* Inner class that defines the table contents */
     public static class Habits implements BaseColumns {
 
         public static final String TABLE_NAME = "habitTracker";

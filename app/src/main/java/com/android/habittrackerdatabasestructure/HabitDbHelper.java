@@ -10,8 +10,8 @@ import android.database.sqlite.SQLiteOpenHelper;
  */
 
 public class HabitDbHelper extends SQLiteOpenHelper {
-    private static final String DB_NAME = "HabitTracker.db"; // the name of our database
-    private static final int DB_VERSION = 1; // the version of the database
+    private static final String DB_NAME = "HabitTracker.db";
+    private static final int DB_VERSION = 1;
 
     public HabitDbHelper(Context context) {
         super(context, DB_NAME, null, DB_VERSION);
